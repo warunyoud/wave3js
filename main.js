@@ -1,5 +1,5 @@
-import * as THREE from '../node_modules/three/build/three.module.js';
-import { GUI } from '../node_modules/dat.gui/build/dat.gui.module.js';
+import * as THREE from 'https://unpkg.com/three@0.146.0/build/three.module.js';
+import { GUI } from 'https://unpkg.com/dat.gui@0.7.9/build/dat.gui.module.js';
 
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
