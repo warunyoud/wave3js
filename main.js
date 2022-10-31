@@ -89,7 +89,7 @@ const plane = new THREE.Mesh(
             x_freq: { value: 0.5 },
             y_freq: { value: 0.5 },
             x_speed: { value: 1 },
-            y_speed: { value: 0 },
+            y_speed: { value: 1 },
             magnitude: { value: 1 },
             directional_light: { value: light_direction },
             view_pos: { value: camera.position },
